@@ -1,5 +1,15 @@
-var Dog = require('./Dog.js');
+const Dog = require('./Dog.js');
+const Cat = require('./Cat.js');
+const Mouse = require('./Mouse.js');
 
-let dog = new Dog('Lulu');
+let catTom = new Cat('Tom');
 
-console.log(dog.sayHi());
+let mouseJerry = new Mouse('jerry');
+
+let dogPluto = new Dog('Lulu');
+
+catTom.eat(mouseJerry);
+
+dogPluto.eat(catTom);
+
+console.log(dogPluto);

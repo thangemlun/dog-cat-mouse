@@ -12,4 +12,3 @@ catTom.eat(mouseJerry);
 
 dogPluto.eat(catTom);
 
-console.log(dogPluto);

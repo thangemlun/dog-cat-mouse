@@ -1,4 +1,9 @@
 function Horse() {
+
+}
+
+Horse.prototype.run = function() {
+console.log('running');
 }
 
 Horse.prototype.jump = function() {
